@@ -1,0 +1,29 @@
+/*Give the <body> element a background of Black*/
+body {
+    background-color: blueviolet;
+}
+/*Make the <h1> elements blue*/
+h1 {
+    color: blue;
+}
+/*Make all <li> elements in the shade of hexadecimal blue*/
+ul {
+    color: cadetblue;
+}
+/*Paragraph background to orange*/
+p {
+    color: orange;
+}
+/*Make all <h3> have 5px red solid border*/
+h3 {
+    border: solid rgb(241, 23, 8);
+}
+/*Give everything with <abbr> bold and underlined*/
+
+/*Give elements with class "explanation" red*/
+
+/*Give <p> in id "zen-benefits" pink background*/
+
+/*Make <li> adjacent to <h2> red background*/
+
+/*Give <em> inside <p> red and bold*/
