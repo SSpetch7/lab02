@@ -1,6 +1,6 @@
 /*Give the <body> element a background of Black*/
 body {
-    background-color: blueviolet;
+    background-color: rgb(10, 10, 10);
 }
 /*Make the <h1> elements blue*/
 h1 {
@@ -8,22 +8,36 @@ h1 {
 }
 /*Make all <li> elements in the shade of hexadecimal blue*/
 ul {
-    color: cadetblue;
+    color: #65ECF3;
 }
 /*Paragraph background to orange*/
 p {
-    color: orange;
+    background-color: orange;
 }
 /*Make all <h3> have 5px red solid border*/
 h3 {
     border: solid rgb(241, 23, 8);
+    border-width: 5px;
 }
 /*Give everything with <abbr> bold and underlined*/
-
+abbr{
+    font-weight: bold;
+    text-decoration: underline;
+}
 /*Give elements with class "explanation" red*/
-
+.explanation {
+    color: red;
+}
 /*Give <p> in id "zen-benefits" pink background*/
-
+#zen-benefits p {
+    background-color: pink;
+}
 /*Make <li> adjacent to <h2> red background*/
-
+h2 + li {
+    background-color: red;
+}
 /*Give <em> inside <p> red and bold*/
+p  em{
+    color: red;
+    border-style: bold;
+}
