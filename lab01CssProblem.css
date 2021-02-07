@@ -1,6 +1,7 @@
 /*Give the <body> element a background of Black*/
 body {
     background-color: rgb(10, 10, 10);
+    font-family: 'Oswald', sans-serif;
 }
 /*Make the <h1> elements blue*/
 h1 {
