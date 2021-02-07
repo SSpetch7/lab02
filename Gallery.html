@@ -5,82 +5,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>PETCH GALLERY</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            width: 75%;
+            margin: auto;
+        }
+        img{
+            margin-top: 20px;
+        }
+        .profile{
+            width: auto;
+            height: 90px;
+            border-radius: 50px;
+        }
+        .container{
+            width: 75%;
+            display: flex;
+            justify-content: flex-start;
+            height: 180px;
+            border-bottom: solid gray;
+            padding-top: 30px;
+        }
+        .jumbotron{
+            margin-top: 2%;
+            margin-left: 2%;
+            text-align: left;
+        }
+        .main:hover .img-thumbnail{
+            filter:blur(3px);
+            opacity: .5;
+            transform: scale(.98);
+            box-shadow: none;
+        }
+        .main:hover .img-thumbnail:hover{
+            transform: scale(1.1);
+            filter:blur(0px);
+            opacity: 1;
+            box-shadow: 0 8px 20px 0px rgba(0,0,0,0.125);
+            width: 1000px;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
+        <div>
+            <img class="profile" src="https://scontent.furt1-1.fna.fbcdn.net/v/t1.0-9/81995162_2650275821708078_4932715255932387328_o.jpg?_nc_cat=111&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeEF0tH6gl2Dm5uXu0QkaqzHOypqclQk6Pk7KmpyVCTo-cLJWKz3xdr8k_5flT-o8Ous8o52LfEY32YdYB-MkMW9&_nc_ohc=9vkz9epQmi0AX--7klp&_nc_ht=scontent.furt1-1.fna&oh=66f327fb009b4920532552f11863decd&oe=60467B80">
+        </div>
         <div class="jumbotron">
             <h1>My Gallery</h1>
             <p>The ordinary photo galleryS</p>
         </div>
     </div>
-    <div class="row">
-        <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/564x/89/8e/3b/898e3b9b924bd2c7045a6c78d9699546.jpg">
+    <div class="main">
+        <div class="row">
+            <div class="col-xl-3 col-md-6">
+                <img class="img-thumbnail" src="https://i.pinimg.com/564x/89/8e/3b/898e3b9b924bd2c7045a6c78d9699546.jpg">
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <img class="img-thumbnail" src="https://i.pinimg.com/564x/82/6a/48/826a48625ddaabe65a4b1ee73b5a93d9.jpg">
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <img class="img-thumbnail" src="https://i.pinimg.com/564x/7f/34/99/7f34990bcdf2361e0e617760ce88c809.jpg">
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <img class="img-thumbnail" src="https://i.pinimg.com/564x/06/73/c6/0673c631ac10f2199a1ad2181897c5e9.jpg">
+            </div>
         </div>
-        <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/564x/89/8e/3b/898e3b9b924bd2c7045a6c78d9699546.jpg">
+        <div class="row" >
+            <div class="col-xl-3 col-md-6">
+                <img class="img-thumbnail" src="https://i.pinimg.com/564x/c4/e9/18/c4e918092c83c34690fc625611320e0b.jpg">
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <img class="img-thumbnail" src="https://i.pinimg.com/564x/db/48/5b/db485b7350414df083885eb6a58760b5.jpg">
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <img class="img-thumbnail" src="https://i.pinimg.com/564x/4b/9b/81/4b9b8176dff006e43b97d44d120f145b.jpg">
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <img class="img-thumbnail" src="https://i.pinimg.com/564x/07/a8/08/07a808e3adb972bc1137038dd1f89bd1.jpg">
+            </div>
         </div>
-        <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/564x/89/8e/3b/898e3b9b924bd2c7045a6c78d9699546.jpg">
+        <div class="row">
+            <div class="col-xl-3 col-md-6">
+                <img class="img-thumbnail" src="https://i.pinimg.com/564x/b9/a8/a5/b9a8a5c953462edd46cc9935669c82f5.jpg">
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <img class="img-thumbnail" src="https://i.pinimg.com/564x/6e/a5/ee/6ea5eed99611001f0a9173dac005709a.jpg">
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <img class="img-thumbnail" src="https://i.pinimg.com/564x/2f/d0/d0/2fd0d0f06190fdb069e9b33cc17b6f1a.jpg">
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <img class="img-thumbnail" src="https://i.pinimg.com/236x/3d/4a/d7/3d4ad7d1962fd2d015daf7a37bc10206.jpg">
+            </div>
         </div>
-        <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/564x/89/8e/3b/898e3b9b924bd2c7045a6c78d9699546.jpg">
+        <div class="row">
+            <div class="col-xl-3 col-md-6">
+                <img class="img-thumbnail" src="https://i.pinimg.com/564x/09/47/a3/0947a38244379b33c7a8316d43407fd4.jpg">
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <img class="img-thumbnail" src="https://i.pinimg.com/236x/53/b2/95/53b295ee60054af4f0c2b7382ab4685d.jpg">
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <img class="img-thumbnail" src="https://i.pinimg.com/564x/d0/07/b7/d007b7f22be3674655ede5dffa18689f.jpg">
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <img class="img-thumbnail" src="https://i.pinimg.com/236x/2f/26/80/2f26804991738727c2ea4fb17acf225c.jpg">
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/564x/89/8e/3b/898e3b9b924bd2c7045a6c78d9699546.jpg">
-        </div>
-        <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/564x/89/8e/3b/898e3b9b924bd2c7045a6c78d9699546.jpg">
-        </div>
-        <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/564x/89/8e/3b/898e3b9b924bd2c7045a6c78d9699546.jpg">
-        </div>
-        <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/564x/89/8e/3b/898e3b9b924bd2c7045a6c78d9699546.jpg">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/564x/89/8e/3b/898e3b9b924bd2c7045a6c78d9699546.jpg">
-        </div>
-        <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/564x/89/8e/3b/898e3b9b924bd2c7045a6c78d9699546.jpg">
-        </div>
-        <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/564x/89/8e/3b/898e3b9b924bd2c7045a6c78d9699546.jpg">
-        </div>
-        <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/564x/89/8e/3b/898e3b9b924bd2c7045a6c78d9699546.jpg">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/564x/89/8e/3b/898e3b9b924bd2c7045a6c78d9699546.jpg">
-        </div>
-        <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/564x/89/8e/3b/898e3b9b924bd2c7045a6c78d9699546.jpg">
-        </div>
-        <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/564x/89/8e/3b/898e3b9b924bd2c7045a6c78d9699546.jpg">
-        </div>
-        <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/564x/89/8e/3b/898e3b9b924bd2c7045a6c78d9699546.jpg">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/564x/89/8e/3b/898e3b9b924bd2c7045a6c78d9699546.jpg">
-        </div>
-        <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/564x/89/8e/3b/898e3b9b924bd2c7045a6c78d9699546.jpg">
-        </div>
-        <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/564x/89/8e/3b/898e3b9b924bd2c7045a6c78d9699546.jpg">
-        </div>
-        <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/564x/89/8e/3b/898e3b9b924bd2c7045a6c78d9699546.jpg">
+        <div class="row">
+            <div class="col-xl-3 col-md-6">
+                <img class="img-thumbnail" src="https://i.pinimg.com/564x/96/48/d6/9648d6583d435375af1559de73081ffb.jpg">
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <img class="img-thumbnail" src="https://i.pinimg.com/564x/62/b6/dc/62b6dc59f0283d9e866b08230bd98ee3.jpg">
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <img class="img-thumbnail" src="https://i.pinimg.com/564x/1d/68/ff/1d68ff41b54ac1fc860c064c1aabd174.jpg">
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <img class="img-thumbnail" src="https://i.pinimg.com/564x/ea/a2/bb/eaa2bb7725fea0a1bbd2ddf2adb26096.jpg">
+            </div>
         </div>
     </div>
 </body>
